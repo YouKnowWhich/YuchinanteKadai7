@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4F0878912AE9642800818AB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0878902AE9642800818AB7 /* AppDelegate.swift */; };
 		4F0878932AE9642800818AB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0878922AE9642800818AB7 /* SceneDelegate.swift */; };
-		4F0878952AE9642800818AB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0878942AE9642800818AB7 /* ViewController.swift */; };
 		4F0878982AE9642800818AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0878962AE9642800818AB7 /* Main.storyboard */; };
 		4F08789A2AE9642900818AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0878992AE9642900818AB7 /* Assets.xcassets */; };
 		4F08789D2AE9642900818AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F08789B2AE9642900818AB7 /* LaunchScreen.storyboard */; };
+		4F6A835F2AF0ADB60025D28A /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A835E2AF0ADB60025D28A /* AdditionViewController.swift */; };
+		4F6A83612AF0ADDB0025D28A /* SubtractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A83602AF0ADDB0025D28A /* SubtractionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F08788D2AE9642800818AB7 /* YuchinanteKadai7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuchinanteKadai7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0878902AE9642800818AB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F0878922AE9642800818AB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F0878942AE9642800818AB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F0878972AE9642800818AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F0878992AE9642900818AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F08789C2AE9642900818AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F08789E2AE9642900818AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6A835E2AF0ADB60025D28A /* AdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionViewController.swift; sourceTree = "<group>"; };
+		4F6A83602AF0ADDB0025D28A /* SubtractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				4F0878902AE9642800818AB7 /* AppDelegate.swift */,
 				4F0878922AE9642800818AB7 /* SceneDelegate.swift */,
-				4F0878942AE9642800818AB7 /* ViewController.swift */,
 				4F0878962AE9642800818AB7 /* Main.storyboard */,
 				4F0878992AE9642900818AB7 /* Assets.xcassets */,
 				4F08789B2AE9642900818AB7 /* LaunchScreen.storyboard */,
 				4F08789E2AE9642900818AB7 /* Info.plist */,
+				4F6A835E2AF0ADB60025D28A /* AdditionViewController.swift */,
+				4F6A83602AF0ADDB0025D28A /* SubtractionViewController.swift */,
 			);
 			path = YuchinanteKadai7;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0878952AE9642800818AB7 /* ViewController.swift in Sources */,
+				4F6A835F2AF0ADB60025D28A /* AdditionViewController.swift in Sources */,
 				4F0878912AE9642800818AB7 /* AppDelegate.swift in Sources */,
 				4F0878932AE9642800818AB7 /* SceneDelegate.swift in Sources */,
+				4F6A83612AF0ADDB0025D28A /* SubtractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
