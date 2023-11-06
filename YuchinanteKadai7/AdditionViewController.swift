@@ -39,20 +39,9 @@ class AdditionViewController: UIViewController {
     // ボタンが押されたときに呼ばれるアクション
     @IBAction private func additionButton(_ sender: Any) {
         // テキストフィールドからフォーカスを外す
-        self.textField1.resignFirstResponder()
-        self.textField2.resignFirstResponder()
+        textField1.resignFirstResponder()
+        textField2.resignFirstResponder()
         // 足し算を実行
         addition()
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
